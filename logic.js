@@ -13,6 +13,8 @@ console.log(event.target);
 }
 
 function poison(event) {
-    document.getElementById("fish").className="poisoned";
+    console.log(event);
+    var data = event.dataTransfer.getData("text");
+    document.getElementById(data).className="poisoned";
     drop(event);
 }
