@@ -11,3 +11,8 @@ console.log(event.target);
   var data = event.dataTransfer.getData("text");
   event.target.appendChild(document.getElementById(data));
 }
+
+function poison(event) {
+    alert("Oh no!");
+    drop(event);
+}
