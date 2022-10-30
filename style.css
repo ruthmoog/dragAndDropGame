@@ -1,0 +1,24 @@
+h1 {
+  color: blue;
+}
+
+#fishBowl,
+#fish {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  min-height: 200px;
+  margin-bottom: 20px;
+}
+
+#fishBowl {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+#fish {
+  object-fit: cover;
+}
