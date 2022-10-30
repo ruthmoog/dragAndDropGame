@@ -35,3 +35,7 @@
 - [Drag-and-Drop tutorial by Andreea Macoveiciuc](https://javascript.plainenglish.io/beginner-drag-and-drop-game-with-html-css-and-js-58653f974285)
 - [MDN web docs HTML Drag and Drop API](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API)
 - [MDN web docs `draggable`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/draggable)
+
+## Credits
+
+- [Graphic icons created by Freepik  Flaticon](https://www.flaticon.com/free-icons/fishbowl)
