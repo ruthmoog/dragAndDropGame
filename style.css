@@ -15,6 +15,7 @@ h1 {
 }
 
 #dropZone,
+#poisonZone,
 #fish {
   display: flex;
   flex-flow: row nowrap;
@@ -38,5 +39,8 @@ h1 {
 }
 
 .poisoned {
-    border: solid 1px tomato;
+    transition-duration: 3s;
+    transition-delay: 2s;
+    transform: rotate(180deg)
+
 }
