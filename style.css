@@ -36,3 +36,7 @@ h1 {
   object-fit: cover;
   z-index: 2;
 }
+
+.poisoned {
+    border: solid 1px tomato;
+}

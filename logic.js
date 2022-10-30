@@ -13,6 +13,6 @@ console.log(event.target);
 }
 
 function poison(event) {
-    alert("Oh no!");
+    document.getElementById("fish").className="poisoned";
     drop(event);
 }
